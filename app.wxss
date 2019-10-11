@@ -1,0 +1,129 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+  background: #F2F2F2;
+} 
+
+.flex-wrp{
+  display: flex;
+}
+
+.flex-item{
+  flex-grow: 1;
+  text-align: center;
+}
+
+.top-tab{
+  width: 750rpx;
+  height: 100rpx;
+  color: 	#919191;
+  font-size: 28rpx;
+  line-height: 100rpx;
+  margin: 0 0 8rpx 0;
+  top: 0;
+  z-index: 9999;
+}
+
+.toptab.active{
+  color: #3CB371;
+  border-bottom: solid 2px #3CB371;
+}
+
+.container .feed-item{
+  width: 690rpx;
+  padding: 30rpx 30rpx 20rpx;
+  margin: 7rpx 0 6rpx 0;
+  background: #ffffff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 5px #eeeeee;
+}
+
+.container .feed-item .feed-content{
+  padding: 10rpx 0 0 0;
+}
+
+.container .feed-item .feed-content .keyworld text{
+  font-size: 28rpx;
+  font-weight: 600px;
+  line-height: 40rpx;
+}
+
+.container .feed-item .feed-content .answer-body{
+  padding: 10rpx 0 0 0;
+  /*height: 10rpx;*/
+  font-size: 24rpx;
+  line-height: 28rpx;
+  color: #5b5b5b;
+}
+
+.container .share_img image{
+width: 200rpx;
+height: 200rpx;
+padding: 10rpx 0 0; 
+}
+
+.container .feed-item .feed-content .answer-actions{
+  width: 690rpx;
+  padding: 10rpx 0  0;
+  color: #a0acac;
+}
+.container .feed-item .feed-content .answer-actions .time{
+ position: relative;
+ display: inline-block;
+ margin-right: 30rpx;
+}
+.container .feed-item .feed-content .answer-actions .time text{
+vertical-align:middle;
+display: inline-block;
+}
+
+.container .feed-item .feed-content .answer-actions .good{
+ position: relative;
+ display: inline-block;
+ margin-left: 300rpx;
+}
+
+.container .feed-item .feed-content .answer-actions .good image{
+ width: 40rpx;
+ height: 40rpx;
+ display: inline-block;
+ vertical-align: middle;
+}
+
+.container .feed-item .feed-content .answer-actions text{
+vertical-align:middle;
+display: inline-block;
+}
+
+.container .feed-item .feed-content .answer-actions .comment{
+ display: inline-block;
+ position: relative;
+ margin-left: 80rpx;
+}
+
+.container .feed-item .feed-content .answer-actions .comment image{
+ width:40rpx;
+ height:40rpx;
+ display: inline-block;
+ vertical-align: middle;
+}
+
+
+
+.container .feed-item .feed-content .answer-actions view{
+  display: inline-block;
+  vertical-align: text-bottom;
+  padding: 0 10rpx 0 0;
+  font-size: 24rpx;
+}
+
+
+
+

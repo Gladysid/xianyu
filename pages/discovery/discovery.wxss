@@ -1,0 +1,58 @@
+/* pages/discovery/discovery.wxss */
+.add-pink{
+  width: 735rpx;
+  height: 50rpx;
+  padding: 12.5rpx 0 12.5rpx 15rpx;
+  background: #3CB371;
+  
+}
+.add-pink .flex-item image{
+  width: 45rpx;
+  height: 45rpx;
+  float: left;
+
+} 
+
+.container{
+  height: 3600rpx;
+}
+
+.activity{
+  width: 750rpx;
+  height: 375rpx;
+}
+.activity image{
+  width: 750rpx;
+  height: 375rpx;
+}
+
+.container .feed-item .feed-source{
+  width: 690rpx;
+  left: 0;
+  height: 50rpx;
+}
+.container .feed-item .feed-source .avatar{
+  position: relative;
+  display: inline-block;
+}
+.container .feed-item .feed-source a{
+  display: inline-block;
+  height: 40rpx;
+}
+.container .feed-item .feed-source .avatar image{
+  display: inline-block;
+  width: 45rpx;
+  height: 45rpx;
+  border-radius: 45rpx;
+  top: 10rpx;
+  vertical-align: middle;
+}
+.container .feed-item .feed-source text{
+  display: inline-block;
+  height: 40rpx;
+  line-height: 40rpx;
+  vertical-align: middle;
+  margin: 0 0 0 15rpx;
+  color: #a0acac;
+  font-size: 26rpx;
+}

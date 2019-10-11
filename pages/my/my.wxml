@@ -1,0 +1,63 @@
+<!--pages/my/my.wxml-->
+<view class="container more">
+  <view class="user flex-wrp">
+    <view class="avatar flex-item">
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    </view>
+    <view class="user-info flex-item">
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <text class="edit">查看或编辑个人主页</text>
+    </view>
+  </view>
+
+  <view class="my-item flex-wrp add-another-item">
+    <view class="myitem-name flex-item">
+      <text class="praise">0超赞</text>
+      <text class="notice">0关注</text>
+      <text class="fans">0粉丝</text>
+    </view>
+  </view>
+
+  <view class="my">
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="../../images/public-goods .png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我发布的</text>
+      </view>
+    </view>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="../../images/sell-goods.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我卖出的</text>
+      </view>
+    </view>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="../../images/buy-goods.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我买到的</text>
+      </view>
+    </view>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="../../images/star.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我收藏的</text>
+      </view>
+    </view>
+    <view class="my-item flex-wrp">
+      <view class="myitem-icon flex-item" >
+        <image src="../../images/post.png"></image>
+      </view>
+      <view class="myitem-name flex-item">
+        <text>我的帖子</text>
+      </view>
+    </view>
+  </view>
+</view>

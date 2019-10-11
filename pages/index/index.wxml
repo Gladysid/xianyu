@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<scroll-view class="container" scroll-y="true" bindscrolltoupper="upper">
+  <view class="search flex-wrp">
+    <view class="search-left flex-item">
+      <image src="../../images/search.png"></image>
+      <input placeholder="搜索您想要的宝贝" placeholder-class="search-placeholder"/>
+    </view>
+
+    <view class="search-right flex-item" bindtap="upper">
+      <image src="../../images/scan.png"></image>
+    </view>
+  </view>
+
+  
+  <scroll-view scroll-x class="scroll-header">
+   <view class="toptab flex-item {{currentNavtab==idx ? 'active' : ''}}" wx:for="{{navTab}}" wx:for-index="idx" wx:for-item="itemName" data-idx="{{idx}}" bindtap="switchTab">
+    {{itemName}}
+    </view>
+  </scroll-view>
+  
+
+  <block wx:for="{{feed}}" wx:for-item="item">
+    <view class="feed-item">
+      <view class="share_img"> 
+        <image src="{{item.share_img}}"></image>
+      </view>
+      <view class="feed_source_text">
+        <text>{{item.feed_source_text}}</text>
+      </view>
+
+      <view class="box2">
+        <view class="amount">
+         <text>{{item.amount}}</text>
+        </view>
+        <view class="want">
+         <text>{{item.want}}</text>
+        </view>
+      </view>
+
+      <view class="feed-source">
+        <view class="avatar">
+          <image src="{{item.feed_source_img}}"></image>
+        </view>
+        <text>{{item.feed_source_name}}</text>
+      </view>
+    </view>
+    
+  </block>
+</scroll-view>

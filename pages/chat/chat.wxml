@@ -1,0 +1,53 @@
+<!--pages/chat/chat.wxml-->
+<view class="container chat">
+
+  <view class="chat-item flex-wrp">
+    <view class="avatar flex-item">
+     <image src="../../images/notify.png"></image>
+    </view>
+    <view class="chat-content flex-item">
+     <icon type="info" class="icon" color="red" size="18"></icon>
+     <text class="nameId">系统消息</text>
+    </view>
+  </view>
+
+  <view class="chat-item flex-wrp">
+    <view class="avatar flex-item">
+      <image src="../../images/nezha.png"></image>
+    </view>
+    <view class="chat-content flex-item">
+      <view class="chat-source">
+        <text class="chatmate">Nezha</text>
+        <text class="lasttime">1 小时前</text>
+      </view>
+      <text class="chat-txt">你好~</text>
+    </view>
+  </view>
+
+  <view class="chat-item flex-wrp">
+    <view class="avatar flex-item">
+      <image src="../../images/baby.png"></image>
+    </view>
+    <view class="chat-content flex-item">
+      <view class="chat-source">
+        <text class="chatmate">Baby</text>
+        <text class="lasttime">2 小时前</text>
+      </view>
+      <text class="chat-txt">你好~</text>
+    </view>
+  </view>
+
+  <view class="chat-item flex-wrp">
+    <view class="avatar flex-item">
+      <image src="../../images/pink pig.png"></image>
+    </view>
+    <view class="chat-content flex-item">
+      <view class="chat-source">
+        <text class="chatmate">Pink Pig</text>
+        <text class="lasttime">3 小时前</text>
+      </view>
+      <text class="chat-txt">你好~</text>
+    </view>
+  </view>  
+  
+</view>
